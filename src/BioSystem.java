@@ -247,10 +247,10 @@ public class BioSystem {
         double c = input_c;
         int S = 500;
 
-        String filename = "simple-fastGrowers-c="+String.valueOf(c)+"-spatialDistribution-FINAL";
-        String filename_gRate = "simple-fastGrowers-c="+String.valueOf(c)+"-gRateDistribution-FINAL";
-        String filename_precise = "simple-fastGrowers-c="+String.valueOf(c)+"-spatialDistribution_precise-FINAL";
-        String filename_gRate_precise = "simple-fastGrowers-c="+String.valueOf(c)+"-gRateDistribution_precise-FINAL";
+        String filename = "simple-slowGrowers-c="+String.valueOf(c)+"-spatialDistribution-FINAL";
+        String filename_gRate = "simple-slowGrowers-c="+String.valueOf(c)+"-gRateDistribution-FINAL";
+        String filename_precise = "simple-slowGrowers-c="+String.valueOf(c)+"-spatialDistribution_precise-FINAL";
+        String filename_gRate_precise = "simple-slowGrowers-c="+String.valueOf(c)+"-gRateDistribution_precise-FINAL";
 
         int[][][] allMeasurements = new int[nReps][][];
         double[][][] allGRateMeasurements = new double[nReps][][];
